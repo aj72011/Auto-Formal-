@@ -1,0 +1,102 @@
+[
+  {
+    "id": "K001",
+    "concept_key": "Nat.add_zero",
+    "theorem_name": "Nat.add_zero",
+    "summary": "Adding zero on the right leaves a natural number unchanged.",
+    "detailed_explanation": "For all n : Nat, the theorem Nat.add_zero proves n + 0 = n. It is a canonical identity lemma used to close arithmetic normalization goals.",
+    "research_context": "Identity laws are foundational rewrite rules in mechanized arithmetic. They reduce proof search complexity by normalizing expressions early.",
+    "paper_notes": "Normalization-by-rewriting with neutral elements appears in many proof assistant tactic engines and simplifier architectures.",
+    "related_theorems": ["Nat.zero_add", "Nat.add_assoc", "Nat.add_comm"]
+  },
+  {
+    "id": "K002",
+    "concept_key": "Nat.zero_add",
+    "theorem_name": "Nat.zero_add",
+    "summary": "Adding zero on the left leaves a natural number unchanged.",
+    "detailed_explanation": "Nat.zero_add proves 0 + n = n for all natural numbers n. It complements Nat.add_zero and is frequently used by simplification tactics.",
+    "research_context": "Left/right identity symmetry is important for canonical forms in equational theorem proving.",
+    "paper_notes": "Symmetric rewrite systems can improve completion and proof compression in equational logic.",
+    "related_theorems": ["Nat.add_zero", "Nat.add_assoc"]
+  },
+  {
+    "id": "K003",
+    "concept_key": "intro",
+    "theorem_name": "intro",
+    "summary": "Introduces assumptions and quantified variables into context.",
+    "detailed_explanation": "The intro tactic transforms goals like ∀ x, P x or A -> B by introducing x or a hypothesis h : A into the local context.",
+    "research_context": "Context introduction corresponds to lambda abstraction and implication introduction in natural deduction.",
+    "paper_notes": "Tactic-level introduction steps map directly to proof-term lambda binders in the Curry-Howard correspondence.",
+    "related_theorems": ["forall_intro", "imp_intro"]
+  },
+  {
+    "id": "K004",
+    "concept_key": "exact",
+    "theorem_name": "exact",
+    "summary": "Closes a goal with an already-matching term.",
+    "detailed_explanation": "exact t succeeds when term t has the same type as the current goal. It is a direct proof-term insertion tactic.",
+    "research_context": "Exact steps expose explicit proof objects, which are useful for explainability and proof artifact extraction.",
+    "paper_notes": "Proof term extraction and replay rely on exact term boundaries for reproducibility.",
+    "related_theorems": ["rfl", "assumption"]
+  },
+  {
+    "id": "K005",
+    "concept_key": "simpa",
+    "theorem_name": "simpa",
+    "summary": "Simplifies then closes goals using rewriting.",
+    "detailed_explanation": "simpa combines simplification with exact matching. It is efficient when a target theorem almost matches the goal up to definitional simplification.",
+    "research_context": "Hybrid automation tactics reduce proof script length while preserving machine-checkability.",
+    "paper_notes": "Simp-like rewriting strategies are central to practical Lean proof engineering.",
+    "related_theorems": ["simp", "Nat.add_zero", "Nat.zero_add"]
+  },
+  {
+    "id": "K006",
+    "concept_key": "simp",
+    "theorem_name": "simp",
+    "summary": "Runs a simplifier over the current goal/context.",
+    "detailed_explanation": "simp applies a rewrite database to normalize expressions and discharge trivial goals.",
+    "research_context": "Controlled rewriting is a core automation primitive in theorem provers.",
+    "paper_notes": "Term rewriting and simplification heuristics impact proof search completeness and speed.",
+    "related_theorems": ["simpa", "rfl"]
+  },
+  {
+    "id": "K007",
+    "concept_key": "rfl",
+    "theorem_name": "rfl",
+    "summary": "Proves goals by reflexivity of equality.",
+    "detailed_explanation": "rfl solves equalities when both sides reduce to the same term by definitional equality.",
+    "research_context": "Definitional equality is checked by normalization, enabling fast proof closure for many structural equalities.",
+    "paper_notes": "Definitional equality and reduction strategies are central design points in dependent type theory implementations.",
+    "related_theorems": ["Eq.refl", "simp"]
+  },
+  {
+    "id": "K008",
+    "concept_key": "And.intro",
+    "theorem_name": "And.intro",
+    "summary": "Builds a conjunction from separate proofs.",
+    "detailed_explanation": "And.intro takes proofs of P and Q and returns a proof of P ∧ Q.",
+    "research_context": "Conjunction introduction is a standard natural deduction rule used in structured proof composition.",
+    "paper_notes": "Logical connective introduction/elimination rules provide interpretable proof step semantics for education tools.",
+    "related_theorems": ["And.left", "And.right"]
+  },
+  {
+    "id": "K009",
+    "concept_key": "Or.inl",
+    "theorem_name": "Or.inl",
+    "summary": "Proves a disjunction by proving the left branch.",
+    "detailed_explanation": "Or.inl converts a proof of P into a proof of P ∨ Q.",
+    "research_context": "Disjunction constructors encode branching logic in type-theoretic proofs.",
+    "paper_notes": "Sum types and constructive disjunctions are tightly connected in proof assistants.",
+    "related_theorems": ["Or.inr", "Or.elim"]
+  },
+  {
+    "id": "K010",
+    "concept_key": "Or.inr",
+    "theorem_name": "Or.inr",
+    "summary": "Proves a disjunction by proving the right branch.",
+    "detailed_explanation": "Or.inr converts a proof of Q into a proof of P ∨ Q.",
+    "research_context": "Constructive disjunction requires explicit evidence for one branch.",
+    "paper_notes": "Explicit constructors improve proof trace transparency in explainable theorem proving systems.",
+    "related_theorems": ["Or.inl", "Or.elim"]
+  }
+]

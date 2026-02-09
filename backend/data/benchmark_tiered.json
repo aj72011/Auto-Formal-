@@ -1,0 +1,302 @@
+[
+  {
+    "id": "S001",
+    "statement": "For every natural number n, n + 0 = n.",
+    "tier": 1
+  },
+  {
+    "id": "S002",
+    "statement": "For every natural number n, 0 + n = n.",
+    "tier": 1
+  },
+  {
+    "id": "S003",
+    "statement": "For every natural number n, n * 1 = n.",
+    "tier": 1
+  },
+  {
+    "id": "S004",
+    "statement": "For every natural number n, 1 * n = n.",
+    "tier": 1
+  },
+  {
+    "id": "S005",
+    "statement": "For every natural number n, n - n = 0.",
+    "tier": 1
+  },
+  {
+    "id": "S006",
+    "statement": "For all natural numbers a and b, a + b = b + a.",
+    "tier": 2
+  },
+  {
+    "id": "S007",
+    "statement": "For all natural numbers a and b, a * b = b * a.",
+    "tier": 2
+  },
+  {
+    "id": "S008",
+    "statement": "For all natural numbers a, b, c, (a + b) + c = a + (b + c).",
+    "tier": 2
+  },
+  {
+    "id": "S009",
+    "statement": "For all natural numbers a, b, c, (a * b) * c = a * (b * c).",
+    "tier": 2
+  },
+  {
+    "id": "S010",
+    "statement": "For every natural number n, n <= n.",
+    "tier": 1
+  },
+  {
+    "id": "S011",
+    "statement": "For all natural numbers a and b, if a <= b and b <= a then a = b.",
+    "tier": 3
+  },
+  {
+    "id": "S012",
+    "statement": "For all natural numbers a, b, c, if a <= b and b <= c then a <= c.",
+    "tier": 3
+  },
+  {
+    "id": "S013",
+    "statement": "For every natural number n, n <= n + 1.",
+    "tier": 1
+  },
+  {
+    "id": "S014",
+    "statement": "For every natural number n, n < n + 1.",
+    "tier": 1
+  },
+  {
+    "id": "S015",
+    "statement": "For all natural numbers a and b, if a < b then a + 1 <= b.",
+    "tier": 2
+  },
+  {
+    "id": "S016",
+    "statement": "For every natural number n, n divides n.",
+    "tier": 1
+  },
+  {
+    "id": "S017",
+    "statement": "For every natural number n, 1 divides n.",
+    "tier": 1
+  },
+  {
+    "id": "S018",
+    "statement": "For every natural number n, n divides 0.",
+    "tier": 2
+  },
+  {
+    "id": "S019",
+    "statement": "If a divides b and b divides c, then a divides c for natural numbers a, b, c.",
+    "tier": 3
+  },
+  {
+    "id": "S020",
+    "statement": "If a divides b then a divides b + b for natural numbers a and b.",
+    "tier": 2
+  },
+  {
+    "id": "S021",
+    "statement": "Every even natural number can be written as two times another natural number.",
+    "tier": 1
+  },
+  {
+    "id": "S022",
+    "statement": "If n is even then n + n is even for natural numbers n.",
+    "tier": 2
+  },
+  {
+    "id": "S023",
+    "statement": "If n is odd then n + n is even for natural numbers n.",
+    "tier": 3
+  },
+  {
+    "id": "S024",
+    "statement": "The sum of two even natural numbers is even.",
+    "tier": 1
+  },
+  {
+    "id": "S025",
+    "statement": "The product of two even natural numbers is even.",
+    "tier": 1
+  },
+  {
+    "id": "S026",
+    "statement": "The sum of two odd natural numbers is even.",
+    "tier": 3
+  },
+  {
+    "id": "S027",
+    "statement": "If a and b are odd natural numbers then a * b is odd.",
+    "tier": 3
+  },
+  {
+    "id": "S028",
+    "statement": "For every natural number n, n * (n + 1) is even.",
+    "tier": 2
+  },
+  {
+    "id": "S029",
+    "statement": "For every natural number n, n + n = 2 * n.",
+    "tier": 1
+  },
+  {
+    "id": "S030",
+    "statement": "For all natural numbers a and b, if a = b then a + 1 = b + 1.",
+    "tier": 2
+  },
+  {
+    "id": "S031",
+    "statement": "For all natural numbers a and b, if a = b then a * a = b * b.",
+    "tier": 2
+  },
+  {
+    "id": "S032",
+    "statement": "If a = b and b = c then a = c for natural numbers a, b, c.",
+    "tier": 3
+  },
+  {
+    "id": "S033",
+    "statement": "For every proposition P, if P then P.",
+    "tier": 1
+  },
+  {
+    "id": "S034",
+    "statement": "For propositions P and Q, if P and Q then P.",
+    "tier": 1
+  },
+  {
+    "id": "S035",
+    "statement": "For propositions P and Q, if P and Q then Q.",
+    "tier": 1
+  },
+  {
+    "id": "S036",
+    "statement": "For propositions P and Q, if P then P or Q.",
+    "tier": 1
+  },
+  {
+    "id": "S037",
+    "statement": "For propositions P and Q, if Q then P or Q.",
+    "tier": 1
+  },
+  {
+    "id": "S038",
+    "statement": "For propositions P and Q, if P and (P implies Q), then Q.",
+    "tier": 2
+  },
+  {
+    "id": "S039",
+    "statement": "For propositions P, Q, R, if P implies Q and Q implies R then P implies R.",
+    "tier": 3
+  },
+  {
+    "id": "S040",
+    "statement": "For every natural number n, n + 2 = 2 + n.",
+    "tier": 2
+  },
+  {
+    "id": "S041",
+    "statement": "For all natural numbers a, b, c, a * (b + c) = a * b + a * c.",
+    "tier": 3
+  },
+  {
+    "id": "S042",
+    "statement": "For all natural numbers a, b, c, (a + b) * c = a * c + b * c.",
+    "tier": 3
+  },
+  {
+    "id": "S043",
+    "statement": "For every natural number n, 0 <= n.",
+    "tier": 1
+  },
+  {
+    "id": "S044",
+    "statement": "For every natural number n, if n = 0 then n <= 1.",
+    "tier": 2
+  },
+  {
+    "id": "S045",
+    "statement": "If a <= b then a + c <= b + c for natural numbers a, b, c.",
+    "tier": 3
+  },
+  {
+    "id": "S046",
+    "statement": "For all natural numbers a and b, min a b <= a.",
+    "tier": 1
+  },
+  {
+    "id": "S047",
+    "statement": "For all natural numbers a and b, min a b <= b.",
+    "tier": 1
+  },
+  {
+    "id": "S048",
+    "statement": "For all natural numbers a and b, a <= max a b.",
+    "tier": 1
+  },
+  {
+    "id": "S049",
+    "statement": "For all natural numbers a and b, b <= max a b.",
+    "tier": 1
+  },
+  {
+    "id": "S050",
+    "statement": "For every natural number n, n + (n + 1) = 2 * n + 1.",
+    "tier": 3
+  },
+  {
+    "id": "S051",
+    "statement": "Prove by induction that for every natural number n, n + 0 = n.",
+    "tier": 4
+  },
+  {
+    "id": "S052",
+    "statement": "Prove by induction that for every natural number n, n * 0 = 0.",
+    "tier": 4
+  },
+  {
+    "id": "S053",
+    "statement": "Prove by induction that for every natural number n, 0 + n = n.",
+    "tier": 4
+  },
+  {
+    "id": "S054",
+    "statement": "Prove by induction that for every natural number n, n <= n + n.",
+    "tier": 4
+  },
+  {
+    "id": "S055",
+    "statement": "Prove by induction that for every natural number n, 2 ^ n >= n + 1.",
+    "tier": 4
+  },
+  {
+    "id": "S056",
+    "statement": "For all natural numbers a b c d, if a = b and b = c and c = d then a = d.",
+    "tier": 3
+  },
+  {
+    "id": "S057",
+    "statement": "For all natural numbers a b c d, if a <= b and b <= c and c <= d then a <= d.",
+    "tier": 3
+  },
+  {
+    "id": "S058",
+    "statement": "For all natural numbers a b c, if a = b and b = c then a + c = b + b.",
+    "tier": 3
+  },
+  {
+    "id": "S059",
+    "statement": "For all natural numbers a b c, if a <= b and b <= c then a + a <= c + c.",
+    "tier": 3
+  },
+  {
+    "id": "S060",
+    "statement": "For all natural numbers a b c, if a = b and b = c then a * a = c * c.",
+    "tier": 3
+  }
+]

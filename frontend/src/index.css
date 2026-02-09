@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-surface: 11 18 32;
+  --color-panel: 17 27 47;
+  --color-panel-alt: 14 23 41;
+  --color-border: 31 47 75;
+  --color-accent: 79 209 197;
+  --color-success: 52 211 153;
+  --color-danger: 248 113 113;
+  --color-warning: 251 191 36;
+  --color-text-main: 229 237 247;
+  --color-text-muted: 159 178 204;
+  --color-code-surface: 10 21 36;
+  --color-code-text: 214 228 255;
+  --color-scroll-track: 15 27 47;
+  --color-scroll-thumb: 51 71 102;
+}
+
+.theme-light {
+  --color-surface: 241 245 251;
+  --color-panel: 255 255 255;
+  --color-panel-alt: 246 249 253;
+  --color-border: 203 213 225;
+  --color-accent: 14 116 144;
+  --color-success: 5 150 105;
+  --color-danger: 190 24 93;
+  --color-warning: 202 138 4;
+  --color-text-main: 15 23 42;
+  --color-text-muted: 71 85 105;
+  --color-code-surface: 236 242 250;
+  --color-code-text: 30 41 59;
+  --color-scroll-track: 226 232 240;
+  --color-scroll-thumb: 148 163 184;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-surface text-textMain font-sans antialiased;
+  overflow: hidden;
+  transition: background-color 220ms ease, color 220ms ease;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(var(--color-scroll-thumb)) rgb(var(--color-scroll-track));
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(var(--color-scroll-track));
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgb(var(--color-scroll-thumb));
+  border-radius: 999px;
+  border: 2px solid rgb(var(--color-scroll-track));
+}

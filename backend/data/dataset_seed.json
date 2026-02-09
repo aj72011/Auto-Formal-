@@ -1,0 +1,302 @@
+[
+  {
+    "id": "S001",
+    "statement": "For every natural number n, n + 0 = n.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S002",
+    "statement": "For every natural number n, 0 + n = n.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S003",
+    "statement": "For every natural number n, n * 1 = n.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S004",
+    "statement": "For every natural number n, 1 * n = n.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S005",
+    "statement": "For every natural number n, n - n = 0.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S006",
+    "statement": "For all natural numbers a and b, a + b = b + a.",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S007",
+    "statement": "For all natural numbers a and b, a * b = b * a.",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S008",
+    "statement": "For all natural numbers a, b, c, (a + b) + c = a + (b + c).",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S009",
+    "statement": "For all natural numbers a, b, c, (a * b) * c = a * (b * c).",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S010",
+    "statement": "For every natural number n, n <= n.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S011",
+    "statement": "For all natural numbers a and b, if a <= b and b <= a then a = b.",
+    "topic": "order_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S012",
+    "statement": "For all natural numbers a, b, c, if a <= b and b <= c then a <= c.",
+    "topic": "order_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S013",
+    "statement": "For every natural number n, n <= n + 1.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S014",
+    "statement": "For every natural number n, n < n + 1.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S015",
+    "statement": "For all natural numbers a and b, if a < b then a + 1 <= b.",
+    "topic": "order_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S016",
+    "statement": "For every natural number n, n divides n.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S017",
+    "statement": "For every natural number n, 1 divides n.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S018",
+    "statement": "For every natural number n, n divides 0.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S019",
+    "statement": "If a divides b and b divides c, then a divides c for natural numbers a, b, c.",
+    "topic": "number_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S020",
+    "statement": "If a divides b then a divides b + b for natural numbers a and b.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S021",
+    "statement": "Every even natural number can be written as two times another natural number.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S022",
+    "statement": "If n is even then n + n is even for natural numbers n.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S023",
+    "statement": "If n is odd then n + n is even for natural numbers n.",
+    "topic": "number_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S024",
+    "statement": "The sum of two even natural numbers is even.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S025",
+    "statement": "The product of two even natural numbers is even.",
+    "topic": "number_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S026",
+    "statement": "The sum of two odd natural numbers is even.",
+    "topic": "number_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S027",
+    "statement": "If a and b are odd natural numbers then a * b is odd.",
+    "topic": "number_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S028",
+    "statement": "For every natural number n, n * (n + 1) is even.",
+    "topic": "number_theory",
+    "difficulty": "hard"
+  },
+  {
+    "id": "S029",
+    "statement": "For every natural number n, n + n = 2 * n.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S030",
+    "statement": "For all natural numbers a and b, if a = b then a + 1 = b + 1.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S031",
+    "statement": "For all natural numbers a and b, if a = b then a * a = b * b.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S032",
+    "statement": "If a = b and b = c then a = c for natural numbers a, b, c.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S033",
+    "statement": "For every proposition P, if P then P.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S034",
+    "statement": "For propositions P and Q, if P and Q then P.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S035",
+    "statement": "For propositions P and Q, if P and Q then Q.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S036",
+    "statement": "For propositions P and Q, if P then P or Q.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S037",
+    "statement": "For propositions P and Q, if Q then P or Q.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S038",
+    "statement": "For propositions P and Q, if P and (P implies Q), then Q.",
+    "topic": "logic",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S039",
+    "statement": "For propositions P, Q, R, if P implies Q and Q implies R then P implies R.",
+    "topic": "logic",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S040",
+    "statement": "For every natural number n, n + 2 = 2 + n.",
+    "topic": "algebra_basics",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S041",
+    "statement": "For all natural numbers a, b, c, a * (b + c) = a * b + a * c.",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S042",
+    "statement": "For all natural numbers a, b, c, (a + b) * c = a * c + b * c.",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S043",
+    "statement": "For every natural number n, 0 <= n.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S044",
+    "statement": "For every natural number n, if n = 0 then n <= 1.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S045",
+    "statement": "If a <= b then a + c <= b + c for natural numbers a, b, c.",
+    "topic": "order_theory",
+    "difficulty": "medium"
+  },
+  {
+    "id": "S046",
+    "statement": "For all natural numbers a and b, min a b <= a.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S047",
+    "statement": "For all natural numbers a and b, min a b <= b.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S048",
+    "statement": "For all natural numbers a and b, a <= max a b.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S049",
+    "statement": "For all natural numbers a and b, b <= max a b.",
+    "topic": "order_theory",
+    "difficulty": "easy"
+  },
+  {
+    "id": "S050",
+    "statement": "For every natural number n, n + (n + 1) = 2 * n + 1.",
+    "topic": "algebra_basics",
+    "difficulty": "medium"
+  }
+]
